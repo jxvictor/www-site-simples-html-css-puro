@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #942222;
+}
+.topo{
+    background-color:#bd3737;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: white;
+    width: 270px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-img{
+    height: 153px;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 15px 15px 0 0;
+}
+.card h2{
+    text-align: center;
+}
+
+.card p{
+    padding: 10px;
+}
+.card a{
+    background-color: #000000;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    /*margin: 20px 12px;*/
+    text-decoration: none;
+}
+
+.card:hover{
+    background-color: rgba(87, 17, 17, 0.724);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+}
+
+.card a:hover{
+    background-color: #ff0000be;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+}
+
+.rodape{
+    background-color: #bd3737;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
